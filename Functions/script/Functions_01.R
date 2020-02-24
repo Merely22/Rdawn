@@ -33,7 +33,7 @@ mean(temp , na.rm = TRUE)
 mean(pp, na.rm = TRUE)
 
 
-# Writting your own function ----------------------------------------------
+# Writing your own function ----------------------------------------------
 
 
 
