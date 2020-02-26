@@ -1,7 +1,7 @@
 # Introduction to apply family --------------------------------------------
 
 animes <- c('Death Note', 'Kimetzu no yaiba', 
-            'Bleach', 'Naruto', 'Guns','Asura')
+            'Bleach', 'Naruto', 'Guns', 'Asura')
 
 # Using loop print
 
