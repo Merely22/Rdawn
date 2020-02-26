@@ -10,9 +10,23 @@ for( name in animes){
 }
 
 # Using apply family
+
 print_out <- function(x){
   print(paste0('My favourite animes is :', x))
 }
 
 unlist(lapply(animes,print_out))
+
+# You can to use an anonymous function in lapply
+
+unlist(lapply(animes, 
+       function(x){
+         print(paste0('My favourite animes is :', x))
+         })
+       )
+
+
+
+
+
 
