@@ -49,7 +49,8 @@ bands <- list(resad = c('Cigarette after sex : Touch',
                         'Coldplay : Gravity',
                         'Nirvana : The man sold on the world'),
               sad = c('Wilder mind : Tompkins square park u-u',
-                      'Siddhartha : Únicos','keane : Nothing in my way'))
+                      'Siddhartha : Únicos',
+                      'keane : Nothing in my way'))
 
 
 
