@@ -29,7 +29,7 @@ unlist(lapply(animes,
 # 1.4 Other examples: -----------------------------------------------------
 
 memories <- c('Heydi:07', 'Milagros:10', 'Sol:13','Antonella:15',
-              'Maria Rosa:16', 'Geena:17', 'Melani:19')
+              'Maria Rosa:16','Geena:17', 'Melani:19')
 
 tosplit <- strsplit(memories, ":")
 
@@ -42,4 +42,19 @@ unlist(names)
 
 year <- lapply(tosplit, extract, index = 2)
 as.numeric(unlist(year))
+
+# Challenge ---------------------------------------------------------------
+
+bands <- list(resad = c('Cigarette after sex : Touch',
+                        'Coldplay : Gravity',
+                        'Nirvana : The man sold on the world'),
+              sad = c('Wilder mind : Tompkins square park u-u',
+                      'Siddhartha : Únicos','keane : '),
+              rock = c('Green Day : ', 'LinkiPark: ', 'Oasis :', 'Pxndx : '))
+
+
+
+
+
+
 
