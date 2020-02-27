@@ -28,8 +28,8 @@ unlist(lapply(animes,
 
 # 1.4 Other examples: -----------------------------------------------------
 
-memories <- c('Heydi:07', 'Milagros:10', 'Sol:13','Antonella:15',
-              'Maria Rosa:16','Geena:17', 'Melani:19')
+memories <- c('Heydi:07', 'Milagros:10', 'Sol:13', 'Antonella:15',
+              'Maria Rosa:16', 'Geena:17', 'Melani:19')
 
 tosplit <- strsplit(memories, ":")
 
