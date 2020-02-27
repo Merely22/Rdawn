@@ -45,16 +45,7 @@ as.numeric(unlist(year))
 
 # Challenge ---------------------------------------------------------------
 
-bands <- list(resad = c('Cigarette after sex : Touch',
-                        'Coldplay : Gravity',
-                        'Nirvana : The man sold on the world'),
-              sad = c('Wilder mind : Tompkins square park u-u',
-                      'Siddhartha : Únicos',
-                      'keane : Nothing in my way'))
-
-
-
-
-
-
-
+# How extract the value of name and song in different assignment variable
+bands <- list(resad = c('Cigarette after sex : Touch'),
+              sad = c('Wilder mind : Tompkins square park u-u'),
+              litlesad = c('JoseMadero: Sin ampersand'))
