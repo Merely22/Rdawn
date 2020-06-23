@@ -77,8 +77,61 @@ band4 / band3
 
 # 3. Creando vectores -----------------------------------------------------
 
+bands <- c('red', 'green', 'blue')
+print(bands)
+bands
+class(bands)
+
+vec <- c('Hola', 'Hi', 'Hello')
+vec
+
+vec <- c(-11.45, -76.34)
+class(vec)
 
 
+# 4. Creando matrices -----------------------------------------------------
+values <- c(0.32, 0.45, 0.55, 0.22, 0.62, 0.82) 
+band_ref <- matrix(values,nrow = 2, ncol = 3, byrow = TRUE)
+band_ref
 
 
+# 5. Creando dataframe ----------------------------------------------------
 
+refvalue <- data.frame(
+  landcover = c('Agriculture','Forest', 'Bareland','Built-up', 'Water'),
+  band1 = c(0.62, 0.41, 0.71, 0.52, 0.11),
+  band2 = c(0.52, 0.61, 0.21, 0.32, 0.41),
+  band3 = c(0.82, 0.21, 0.61, 0.42, 0.71),
+  band4 = c(0.42, 0.61, 0.31, 0.12, 0.21),
+  band5 = c(0.02, 0.31, 0.21, 0.82, 0.31),
+  band7 = c(0.12, 0.21, 0.41, 0.12, 0.51)
+)
+
+print(refvalue)
+refvalue
+
+
+# 6. Creando funciones ----------------------------------------------------
+
+refvalue <- c(0.27, 0.34, 0.45, 0.53, 0.65)
+mean(refvalue)
+
+b3 <- 0.45
+b4 <- 0.52
+
+
+ndvi <- function(band4, band3){
+  band_ratio <- ((band4 - band3) / (band4 + band3))
+  return(band_ratio)
+}
+
+
+ndvi(band4 = b4, band3 = b3)
+
+
+# 7. Tarea ----------------------------------------------------------------
+
+# Crear funciones para calcular simbles ratios como: 
+# • TM3/TM2
+# • TM4/TM5
+# • TM5/TM7.
