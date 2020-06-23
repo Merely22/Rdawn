@@ -135,3 +135,26 @@ ndvi(band4 = b4, band3 = b3)
 # • TM3/TM2
 # • TM4/TM5
 # • TM5/TM7.
+
+
+# 8. Solución -------------------------------------------------------------
+
+ratio <- function(bandA, bandB){
+  div <- (bandA / bandB)
+  return(div)
+  }
+
+# Ejemplo b4 = 0.45 , b3 = 0.24
+b4 = 0.45 ; b3 = 0.24
+
+ratio(bandA = b4, bandB = b3)
+
+
+
+
+
+
+
+
+
+
